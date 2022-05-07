@@ -1,5 +1,6 @@
-# heading
-## heading 2
+# Welcome to my Wiki 
 
-this is a simple paragraph 
-this is a new line
+* [Problem Solving](ps/index.md)
+* [Operating Systems](os/index.md)
+* [Java](java/index.md)
+  
