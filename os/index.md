@@ -7,4 +7,4 @@
 ## The Linux Command Line
   
   - [Chapter 7](chapter7.md)
-  
+  - [Chapter 9](chapter9.md)

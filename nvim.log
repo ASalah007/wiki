@@ -1,0 +1,10 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.016  000.016: --- NVIM STARTING ---
+000.616  000.600: locale set
+001.182  000.566: inits 1
+001.679  000.497: window checked
