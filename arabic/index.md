@@ -1,0 +1,3 @@
+# Arabic 
+
+* [mufradat](mufradat.md)

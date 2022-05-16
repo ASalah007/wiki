@@ -5,9 +5,9 @@
   - write access
   - execution access
 
-* when you execute a `ls -l` command you can see the **file attribut**
+* when you execute a `ls -l` command you can see the **file attribute**
 * the first character represents the file type 
-  - - -> regular file
+  - \- -> regular file
   - d -> directory
   - l -> symbolic link
   - and more ...
@@ -19,10 +19,16 @@
   e.g: `chmod u+x,go-r,g=wx {file_name}`
  
 * by default when you create a new file it is given the permission --- rw- rw- rw- 
-  then some values get disabled according to the mask(by default it is 0002)
+  then some values get disabled according to the mask(by default it is 0002)  
   --- rw- rw- rw-  
   000 000 000 010  
-  --- rw- rw- r--  
-  
+  --- rw- rw- r--   
+
+ # Ownerships
+ 
+ * you can change the ownership of file usin the chown command  
+   
+   `chown <user>:<group> <file>`
+   
   
   
