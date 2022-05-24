@@ -3,5 +3,6 @@
 * [Problem Solving](ps/index.md)
 * [Operating Systems](os/index.md)
 * [Java](java/index.md)
-* [arabic](arabic/index.md)
+* [Arabic](arabic/index.md)
+* [Git](git/index.md)
   
