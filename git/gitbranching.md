@@ -30,4 +30,6 @@ remote-tracking branches are pointers to the remote Branches for example origin/
 * `git branch -vv` -> will tell you which branch you are tracking
 * `git rebase master`
 * `git rebase --onto master branch1 branch2` -> if you want to rebse branch2 as if it was diverged directly from master not branch1
-* 
+* `git push -u origin <branch>` -> this will push the branch to origin and also sets the upstream of the local branch
+* `git branch --set-upstream <branch> origin/branch` -> when you type `git pull` git will get the changes from origin/branch
+

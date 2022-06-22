@@ -27,6 +27,7 @@
   - D -> deleted
   - ?? -> untracked files
 * `git diff (--staged)` -> will show the modified changes unless --staged option is passed which will show the staged changes
+* `git diff --check` -> will show the files that only has trailing white spaces (so that you don't commit them)
 * `git difftool` -> will show the modified changes in difftool
 * `git rm` -> will remove the file from git and from your working tree
 * `git rm --cached` -> this will tell git to stop tracking the file from now on but will not be removed from working tree
@@ -39,6 +40,7 @@
 * `git log -- path/to/file` this will get you all the commits containing this file
 
 * `git commit --amend` -> this will commit every thing to the last commit, if nothing staged then only change commit message
+* `git commit --amend --reset-author --no-edits` -> this will update the author of the last commit to match the current author
 * `git reset HEAD <file>` -> to unstage a file 
 * `git checkout -- <file>` -> this will delete the unstaged changed of that file
 * `git restore --staged <file>` -> this will unstage a file
@@ -67,6 +69,8 @@ By default git push doesn't push tags you have to explicitly call `git push <rem
 * `git push --follow-tags` -> this pushes annotated tags only 
 * `git tag -d <tag_name>` -> this deletes the tag from local repo
 * `git push <remote> --delete <tag_name>` -> this deletes the tag from remote
+ 
+
 
 
 
