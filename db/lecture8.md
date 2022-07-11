@@ -16,7 +16,7 @@
   in postgres you can force it to use hash table by typint **using hash**
   
   
-* CLUSTER emails USING idx_emails_tree; 
+* `CLUSTER emails USING idx_emails_tree;` 
   this tells postgres to resort the entire table based on the sort ordering to find by this index
 
 # implicit indexes

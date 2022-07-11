@@ -64,7 +64,6 @@
 
 * to resize a table, take a latch on the entire table 
 
-
 * Approach #1: Page Latches:
     * each page has its own reader-writer latch that protects the entire content
     * threads acquire either a reader or writer latch before accessing the pagem
