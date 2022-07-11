@@ -21,33 +21,33 @@ List<Long> generateDivisors(Long n) {
 
 ## generating the prime factors of a number n:
 
-    * approach #1:
-    ```
-    1. use sieve to get the prime numbers in range [2, n]
-    2. for each prime p:
-        while (n%p == 0): 
-            divisors.add(p);
-            n/=p;
-    ```
-    * approach #2 (more efficient):
-    ```
-    List<Long> primeFactorization(Long n) {
-        List<Long> primes = new ArrayList<Long>();
-        
-        for (long i = 2; i*i <= n; i++) {
-            while (n % i == 0){
-                primes.add(i);
-                n /= i;
-            }
-        }
-        
-        // if n is prime it will never gets divided by any number in the above loop
-        if (n > 1) {
-            primes.add(n);
+* approach #1:
+```
+1. use sieve to get the prime numbers in range [2, n]
+2. for each prime p:
+    while (n%p == 0): 
+        divisors.add(p);
+        n/=p;
+```
+* approach #2 (more efficient):
+```
+List<Long> primeFactorization(Long n) {
+    List<Long> primes = new ArrayList<Long>();
+    
+    for (long i = 2; i*i <= n; i++) {
+        while (n % i == 0){
+            primes.add(i);
+            n /= i;
         }
     }
     
-    ```
+    // if n is prime it will never gets divided by any number in the above loop
+    if (n > 1) {
+        primes.add(n);
+    }
+}
+
+```
 
 ## counting the number of divisors
     
