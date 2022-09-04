@@ -7,6 +7,9 @@
 * [Lecture 8](lecture8.md)
 * [Lecture 9](lecture9.md)
 * [Lecture 10](lecture10.md)
+* [Lecture 11](lecture11.md)
+* [Lecture 12](lecture12.md)
+* [Lecture 14](lecture14.md)
 
 # SQL 
 
