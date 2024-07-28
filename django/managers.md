@@ -1,8 +1,10 @@
+[<< Back](./index.md)
+
 # Dajngo Managers in a nutshell
 
 - To rename the default name of the manager
 
-```
+```py
 class Model1(models.Model):
     new_name = models.Manager()
 ```
@@ -22,4 +24,4 @@ class CustomModel(models.Model):
     objects = CustomManager()
 ```
 
-- django consider the first manager it sees in the model as the **default manager**  which is used by django in different places like data_dump
+- django consider the first manager it sees in the model as the **default manager** which is used by django in different places like data_dump

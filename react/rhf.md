@@ -1,3 +1,5 @@
+[<< Back](./react.md)
+
 # React Hook Form
 
 - `useForm()`: returns a form object where you can use it to manage your form.
@@ -109,6 +111,8 @@ form.register("email", {
 - you can access the errors for each field by `form.formState.errors.username?.message`
 
 - you can reset the form by `form.reset()`
+- `reset` can take an object that will be used as the default values for the fields
+- only the fields that are explicitly registered by `register('field')` will take a default value from the object passed to reset. if there are values that was set by `setValue` these will be deleted.
 - you can add nested Object in your form definition
 
 ```js

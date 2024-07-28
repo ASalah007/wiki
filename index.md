@@ -1,6 +1,5 @@
 # Welcome to my Wiki
 
-- [Python](python/index.md)
 - [Problem Solving](ps/index.md)
 - [Operating Systems](os/index.md)
 - [Java](java/index.md)
@@ -12,3 +11,4 @@
 - [Django](django/index.md)
 - [Node.js](node.js/index.md)
 - [js](js/index.md)
+- [English](english/index.md)
